@@ -2,9 +2,8 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
      <!-- Font Awesome JS -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script> 
-    <!-- Search functionality -->
+<link href="Content/font-awesome.css" rel="stylesheet" />
+     <!-- Search functionality -->
 <script type="text/javascript">
     $(document).ready(function () {
         $("#searchbox").on("keyup", function () {
@@ -33,26 +32,26 @@
             <ul class="list-unstyled components">
                 <li class="active">
                     <a href="#homeSubmenu">
-                        <i class="fas fa-home"></i>
+                        <i class="fa fa-home"></i>
                         Projects Home
                     </a>
                    
                 </li>
                 <li>
                    
-                   <a runat="server" href="~/About"><i class="fas fa-briefcase"></i> About </a>
+                   <a runat="server" href="~/About"><i class="fa fa-briefcase"></i> About </a>
                 </li>
 
 
                 <li>
                     <a href="#">
-                        <i class="fas fa-question"></i>
+                        <i class="fa fa-question"></i>
                         FAQ
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <i class="fas fa-paper-plane"></i>
+                        <i class="fa fa-paper-plane"></i>
                         Contact
                     </a>
                 </li>
@@ -77,11 +76,11 @@
                 <div class="container-fluid">
 
                     <button type="button" id="sidebarCollapse" class="btn btn-info">
-                        <i class="fas fa-align-left"></i>
+                        <i class="fa fa-align-left"></i>
                         <span></span>
                     </button>
                     <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fas fa-align-justify"></i>
+                        <i class="fa fa-align-justify"></i>
                     </button>
  <!-- Search functionality -->
 
@@ -403,12 +402,6 @@
 
 
 
-  <!-- jQuery CDN - Slim version (=without AJAX) -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <!-- Popper.JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-    <!-- Bootstrap JS -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
     <script type="text/javascript">
         $(document).ready(function () {
